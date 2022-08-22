@@ -1,6 +1,6 @@
+import { isEmail } from '@mkee/common-validator';
 import { useState } from 'react';
 import styles from './app.module.css';
-import { isEmail } from './lib/validation';
 
 export function App() {
   const [email, setEmail] = useState('');
