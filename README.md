@@ -46,9 +46,10 @@ flowchart LR
 ### Configure `package.json`
 
 1. For single entry point, 
-  a. `main` for CommonJS/UMD format
-  b. `module` for ESM format
-  c. `types` for typescript definition
+
+    - `main` for CommonJS/UMD format
+    - `module` for ESM format
+    - `types` for typescript definition
 
 2. For multiple entry points, use `exports` to define what are the entry points.
 
